@@ -13,9 +13,9 @@ h1 {font-size:40px;
 	}
 .relative {
 	position: relative;
+	height: 350px;
 	margin:10px;
-	border: 1px solid black;
-	height:450px;
+	border: 1px solid black;	
 	background-color: grey;
 }
 .styleh1 {
@@ -23,11 +23,11 @@ h1 {font-size:40px;
 	text-align: center;
 	text-transform: uppercase;
 	color:grey;
+	margin: 10px;
 }
 .stylep {
 	position: absolute;
 	text-transform: lowercase;
-	font-size: 20px;
 	margin:10px; 
 	top:40px;
 }
@@ -53,31 +53,28 @@ h1 {font-size:40px;
 .row {
 	width:100%;
 }
-@media (min-width: 992px) {
-	.col-lg-1, .col-lg-2, .col-lg-3 {
-	float: left;
-	}
-	.col-lg-1 {
-		width: 33.33%;
-	}
-	.col-lg-2 {
-		width: 66.66%;
-	}
-	.col-lg-3 {
-		width: 100%;
-	}
+@media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3 {
+         float: left;
+     }
+     .col-lg-1{
+         width: 33.33%;
+     }
+     .col-lg-2{
+         width: 66.66%;
+     }
+     .col-lg-3{
+         width: 100%;
+     }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-	.col-md-1, .col-md-2, .col-md-3 {
-		float: left;
-	}
-	.col-md-1 {
-		width: 33.33%;
-	}
-	.col-md-2 {
-		width: 66.66%;
-	}
-	.col-md-3 {
-		width: 100%;
-	}
-}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-1, .col-md-2, .col-md-3 {
+         float: left;
+     }
+     .col-md-1{
+         width: 50%;
+     }
+     .col-md-2{
+         width: 100%;
+     }
+ }
