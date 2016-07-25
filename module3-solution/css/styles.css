@@ -27,9 +27,16 @@ body {
 	text-align: center;
 	vertical-align: middle;
 }
-#nav-list a span {
-	font-size:1.5em;
+#nav-list li a {
+	border-top: 3px solid black;
 }
+
+
+#collapsable-nav {
+	border-top: 0px;
+}
+
+
 .page-header {
 	border: 0;
 	margin: 0;
